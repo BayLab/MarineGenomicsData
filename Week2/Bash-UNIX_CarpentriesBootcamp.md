@@ -26,7 +26,7 @@ We now know how to explore files and directories,
 but how do we create them in the first place?
 
 ### Step one: see where we are and what we already have
-Let's go back to our `data-shell` directory on the Desktop
+Let's go back to our `MarineGenomics` directory on the Desktop
 and use `ls -F` to see what it contains:
 
 ~~~
@@ -35,7 +35,7 @@ $ pwd
 {: .language-bash}
 
 ~~~
-/Users/nelle/Desktop/data-shell
+/home/margeno/MarineGenomics
 ~~~
 {: .output}
 
@@ -45,7 +45,7 @@ $ ls -F
 {: .language-bash}
 
 ~~~
-creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.pdf  writing/
+Desktop/  Documents/  Downloads/  MarineGenomics/  Music/  Pictures/  Public/  Templates/  Videos/
 ~~~
 {: .output}
 
@@ -71,7 +71,7 @@ $ ls -F
 {: .language-bash}
 
 ~~~
-creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.pdf  thesis/  writing/
+Desktop/  Documents/  Downloads/  MarineGenomics/  Music/  Pictures/  Public/  Templates/  Videos/ thesis/
 ~~~
 {: .output}
 
@@ -282,10 +282,10 @@ draft.txt
 {: .callout}
 
 ## Moving files and directories
-Returning to the `data-shell` directory,
+Returning to the `MarineGenomics` directory,
 
 ```
-cd ~/Desktop/data-shell/
+cd ~/MarineGenomics
 ```
 {: .language-bash}
 
@@ -513,7 +513,7 @@ quotations.txt
 
 ## Removing files and directories
 
-Returning to the `data-shell` directory,
+Returning to the `MarineGenomics` directory,
 let's tidy up this directory by removing the `quotes.txt` file we created.
 The Unix command we'll use for this is `rm` (short for 'remove'):
 
